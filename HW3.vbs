@@ -15,6 +15,9 @@ Cells(1, 9).Value = "total stock volume" 'Column I
 CeLLS(1, 10).Value = "Yearly stock price change" 'Column J
 Cells(1, 11).Value = "Yearly stock price change (%)"  'Column K
 
+Dim i, j, SUM, LastRow, m, mm, mmm As Integer
+Dim SUM, Startstockprice, Endstockprice, MaxStock, YearMax, PercentChangeMax as Double
+
 'Easy and Medium
 Startstockprice = Cell(2, column+2).Value
 j = 2
